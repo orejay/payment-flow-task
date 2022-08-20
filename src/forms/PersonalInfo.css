@@ -1,0 +1,60 @@
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+
+
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+sup {
+    color: #EB5757;
+}
+
+input {
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid #4E598C;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inherit;
+    color: #4F4F4F;
+    margin-bottom: 44px;
+    padding-left: 27px;
+}
+
+input:active {
+    background-color: white;
+}
+
+input:focus {
+    outline: none;
+    font-family: inherit;
+}
+
+label {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+#email-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #817E9E;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.input-wrap-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lg-bx {
+    width: 420px;
+}
+
+#state-bx {
+    width: 260px;
+}
