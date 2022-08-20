@@ -1,5 +1,5 @@
 import React from 'react'
-import './PersonalInfo.css'
+import './forms.css'
 
 export default function PersonalInfo() {
   return (

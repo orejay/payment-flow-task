@@ -17,9 +17,9 @@ ul, li, h3 {
 
 #header {
   width: 710px;
-  border-bottom: 1px solid black;
   height: 200px;
-  margin-bottom: 81px;
+  margin-top: 123px;
+  margin-bottom: 25px;
   margin-left: 394px;
   font-family: inherit;
 }
@@ -29,6 +29,7 @@ ul, li, h3 {
   font-weight: 700;
   font-size: 36px;
   color: #4E598C;
+  margin-bottom: 59px;
 }
 
 #nav ul {
@@ -36,6 +37,7 @@ ul, li, h3 {
   display: flex;
   justify-content: space-between;
   width: 95%;
+  height: 44px;
   font-weight: 700;
   font-size: 24px;
   color: #BDBDBD;
@@ -46,10 +48,19 @@ ul, li, h3 {
   color: #F2994A;
 }
 
+#head-line {
+  margin-top: -3px;
+}
+
 #buttons {
   display: flex;
   margin-left: 394px;
   margin-bottom: 154px;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
 }
 
 #next-btn {
@@ -64,11 +75,17 @@ ul, li, h3 {
   color: #F7F7FF;
 }
 
+#next-btn:hover {
+  background: linear-gradient(180deg, #F2F91F 0%, #F2F94A 100%);
+}
+
 #buttons p {
   font-weight: 700;
   font-size: 20px;
   color: #4E598C;
   font-family: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 73px;
 }
 

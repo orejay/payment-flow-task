@@ -58,3 +58,21 @@ label {
 #state-bx {
     width: 260px;
 }
+
+#card-bx {
+    width: 391px;
+}
+
+#expiry-bx {
+    width: 132px;
+}
+
+#cvv-bx {
+    width: 104px;
+}
+
+#cvv {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
