@@ -11,7 +11,7 @@ export default function PersonalInfo() {
       <div className='input-wrap'>
         <label htmlFor="name">Email Address <sup>*</sup></label>
         <p id='email-desc'>The purchase reciept would be sent to this address</p>
-        <input type="email" name='email' id='email' />
+        <input type="email" name='email' id='email' required/>
       </div>
       <div className='input-wrap'>
         <label htmlFor="address-1">Address 1</label>

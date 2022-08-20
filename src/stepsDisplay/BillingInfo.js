@@ -15,24 +15,24 @@ export default function BillingInfo() {
         <div className='form'>
             <div className='input-wrap'>
                 <label htmlFor="name">Name on Card <sup>*</sup></label>
-                <input type="text" name='name' id='card-name' />
+                <input type="text" name='name' id='card-name' required/>
             </div>
             <div className='input-wrap'>
                 <label htmlFor="name">Card Type <sup>*</sup></label>
-                <input type="text" name='name' id='card-type' />
+                <input type="text" name='name' id='card-type' required/>
             </div>
             <div className='input-wrap-row'>
                 <div className='input-wrap' id='card-bx'>
                     <label htmlFor="lg">Card details <sup>*</sup></label>
-                    <InputMask mask="99999   99999   99999   99999"/>
+                    <InputMask mask="99999   99999   99999   99999" required/>
                 </div>
                 <div className='input-wrap' id='expiry-bx'>
                     <label htmlFor="expiry">Expiry date <sup>*</sup></label>
-                    <InputMask mask={mask} formatChars={formatChars}/>
+                    <InputMask mask={mask} formatChars={formatChars} required/>
                 </div>
                 <div className='input-wrap' id='cvv-bx'>
                     <label htmlFor="state">CVV <sup>*</sup></label>
-                    <InputMask mask="999" id='cvv'/>
+                    <InputMask mask="999" id='cvv' required/>
                 </div>
             </div>
         </div>
