@@ -19,7 +19,11 @@ export default function BillingInfo() {
             </div>
             <div className='input-wrap'>
                 <label htmlFor="name">Card Type <sup>*</sup></label>
-                <input type="text" name='name' id='card-type' className='required' required/>
+                <select id="state">
+                    <option value="Visa">Visa</option>
+                    <option value="Verve">Verve</option>
+                    <option value="Mastercard">Mastercard</option>
+                </select>
             </div>
             <div className='input-wrap-row'>
                 <div className='input-wrap' id='card-bx'>

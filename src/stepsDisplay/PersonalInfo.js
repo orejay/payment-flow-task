@@ -28,7 +28,12 @@ export default function PersonalInfo() {
         </div>
         <div className='input-wrap' id='state-bx'>
             <label htmlFor="state">State</label>
-            <input type="text" name='state'/>
+            <select id="state">
+              <option value="Lagos">Lagos</option>
+              <option value="Oyo">Oyo</option>
+              <option value="Ogun">Ogun</option>
+              <option value="FCT">FCT</option>
+            </select>
         </div>
       </div>
     </div>

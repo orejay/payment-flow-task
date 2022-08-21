@@ -46,6 +46,36 @@ label {
     margin-bottom: 24px;
 }
 
+select {
+    background-image: url('../../images/dropdown.svg');
+    background-repeat: no-repeat;
+    background-size: 20.25px 9.86px;
+    background-position-y: 29.27px;
+    background-position-x: 93%;
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid #4E598C;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inherit;
+    color: #4F4F4F;
+    margin-bottom: 44px;
+    padding-left: 27px;
+    appearance: none;
+    cursor: pointer;
+}
+
+select::after {
+    font-size: inherit;
+    font-family: inherit;
+    background-color: #4E598C;
+}
+
+select:focus {
+    outline: none;
+    font-family: inherit;
+}
+
 .input-wrap-row {
     display: flex;
     justify-content: space-between;
