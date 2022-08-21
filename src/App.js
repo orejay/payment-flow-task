@@ -68,7 +68,7 @@ function Content(){
          const forms = document.getElementsByClassName('required');
          for(let form of forms){
           // set satisfied to true for every filled required field
-          if(form.value){satisfied=true}else{ form.style.border = "1px solid red" }
+          if(form.value){satisfied=true}else{ satisfied = false; form.style.border = "1px solid red" }
           }
           if (satisfied){setStep(step + 1);}
           else{window.alert('Please fill in all required feilds');
