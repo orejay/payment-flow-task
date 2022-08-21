@@ -33,6 +33,7 @@ export default function PersonalInfo() {
               <option value="Oyo">Oyo</option>
               <option value="Ogun">Ogun</option>
               <option value="FCT">FCT</option>
+              <option value="Osun">Osun</option>
             </select>
         </div>
       </div>
