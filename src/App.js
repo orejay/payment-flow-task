@@ -52,7 +52,7 @@ function Content(){
     return (
       <div id='buttons'>
         <button id='next-btn' onClick={()=>{setStep(step + 1);}} className={`${step === 3 ? 'hidden' : ''}`}>{buttonText}</button>
-        <p className={`${step === 3 ? 'hidden' : ''}`}>Cancel Payment {step}</p>
+        <p className={`${step === 3 ? 'hidden' : ''}`}>Cancel Payment</p>
       </div>
     )
   }

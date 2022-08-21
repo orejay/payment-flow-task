@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+
 #message-box {
     width: 801px;
     height: 413px;
@@ -12,7 +14,7 @@
 #done-circle {
     width: 84px;
     height: 84px;
-    background-image: url('../images/complete.svg');
+    background-image: url('../../images/complete.svg');
     background-repeat: no-repeat;
     background-size: 47.1px 33.98px;
     background-position: center;

@@ -1,5 +1,5 @@
 import React from 'react'
-import './forms.css'
+import './styles/forms.css'
 import InputMask from 'react-input-mask';
 
 export default function BillingInfo() {

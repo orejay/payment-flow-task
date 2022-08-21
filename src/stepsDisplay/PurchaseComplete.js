@@ -1,5 +1,5 @@
 import React from 'react'
-import './purchaseComplete.css'
+import './styles/purchaseComplete.css'
 
 export default function PurchaseComplete() {
   return (
