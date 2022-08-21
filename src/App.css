@@ -76,10 +76,12 @@ button {
 }
 
 #next-btn:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 3px 3px 5px rgba(33, 30, 67, 0.2);
   background: linear-gradient(180deg, #F2F91F 0%, #F2F94A 100%);
 }
 
-#buttons p {
+#cancel {
   font-weight: 700;
   font-size: 20px;
   color: #4E598C;
@@ -87,6 +89,7 @@ button {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 73px;
+  text-decoration: none;
 }
 
 .hidden {

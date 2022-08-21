@@ -75,7 +75,7 @@ function Content(){
           }}}
           // hide buttons on confirmation screen
           className={`${step === 3 ? 'hidden' : ''}`}>{buttonText}</button>
-        <p className={`${step === 3 ? 'hidden' : ''}`}>Cancel Payment</p>
+        <a href="/" id="cancel" className={`${step === 3 ? 'hidden' : ''}`}>Cancel Payment</a>
       </div>
     )
   }
