@@ -115,4 +115,10 @@ select:focus {
     select {
         height: 45px;
     }
+
+    .input-wrap-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
