@@ -110,6 +110,15 @@ select:focus {
 @media (max-width: 768px) {
     input {
         height: 40px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    #email-desc {
+        margin-bottom: 7px;
     }
 
     select {
@@ -120,5 +129,13 @@ select:focus {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #lg-bx {
+        width: 100%;
+    }
+
+    #state-bx {
+        width: 100%;
     }
 }
