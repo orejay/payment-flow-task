@@ -97,6 +97,10 @@ button {
 }
 
 @media (max-width: 768px) {
+  .App {
+    align-items: center;
+  }
+
   #header {
     width: 90vw;
     height: 150px;

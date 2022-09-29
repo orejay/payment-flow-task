@@ -111,24 +111,4 @@ select:focus {
     input {
         height: 40px;
     }
-
-    #lg-bx {
-        width: 420px;
-    }
-    
-        #state-bx {
-            width: 260px;
-        }
-    
-        #card-bx {
-            width: 391px;
-        }
-    
-        #expiry-bx {
-            width: 132px;
-        }
-    
-        #cvv-bx {
-            width: 104px;
-        }
 }
