@@ -49,8 +49,8 @@ label {
 select {
     background-image: url('../../images/dropdown.svg');
     background-repeat: no-repeat;
-    background-size: 20.25px 9.86px;
-    background-position-y: 29.27px;
+    background-size: 18.25px 9px;
+    background-position-y: 50%;
     background-position-x: 93%;
     height: 64px;
     border-radius: 10px;
@@ -110,5 +110,9 @@ select:focus {
 @media (max-width: 768px) {
     input {
         height: 40px;
+    }
+
+    select {
+        height: 45px;
     }
 }
