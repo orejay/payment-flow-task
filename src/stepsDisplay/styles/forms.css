@@ -126,6 +126,7 @@ select:focus {
     select {
         height: 45px;
         font-size: 15px;
+        margin-bottom: 15px;
     }
 
     .input-wrap-row {
@@ -141,5 +142,17 @@ select:focus {
 
     #state-bx {
         width: 100%;
+    }
+
+    #card-bx {
+        width: 100%;
+    }
+
+    #expiry-bx {
+        width: 40%;
+    }
+
+    #cvv-bx {
+        width: 30%;
     }
 }
