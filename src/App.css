@@ -126,6 +126,7 @@ button {
   }
 
   #buttons {
+    margin-top: 10px;
     margin-left: 0;
     max-width: 70%;
   }
