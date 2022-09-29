@@ -97,6 +97,14 @@ button {
 }
 
 @media (max-width: 768px) {
+  #header {
+    width: 90vw;
+    height: 150px;
+    margin-top: 123px;
+    margin-bottom: 25px;
+    font-family: inherit;
+  }
+
   .content{
     max-width: 90%;
   }
