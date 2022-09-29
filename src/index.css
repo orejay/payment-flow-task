@@ -26,7 +26,7 @@ body {
 @media (max-width: 768px) {
   body {
     background-image: url('./images/background.svg');
-    background-size: 100vw 250px;
+    background-size: 100vw auto;
     background-position: initial;
     background-repeat: no-repeat;
     display: flex;
