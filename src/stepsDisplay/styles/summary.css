@@ -93,12 +93,31 @@ svg{
 @media (max-width: 768px) {
     #summary-box {
         max-width: 90vw;
+        align-items: center;
         height: auto;
         padding-bottom: 20px;
         margin-left: 0;
     }
 
     #hd-txt {
+        margin: 0 5%;
+    }
+
+    #items {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .colored {
+        max-width: 50%;
+    }
+
+    #total {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .total {
         margin: 0 5%;
     }
 }
