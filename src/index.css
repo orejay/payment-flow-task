@@ -23,3 +23,18 @@ body {
   margin-left: 394px;
 }
 
+@media (max-width: 768px) {
+  body {
+    background-image: url('./images/background.svg');
+    background-size: 100% auto;
+    background-position: initial;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    max-width: 90%;
+  }
+}
+
