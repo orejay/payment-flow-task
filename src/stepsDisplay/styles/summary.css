@@ -89,3 +89,9 @@ svg{
 .colored {
     color: #4E598C;
 }
+
+@media (max-width: 768px) {
+    #summary-box {
+        width: 90%;
+    }
+}

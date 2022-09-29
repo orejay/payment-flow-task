@@ -65,23 +65,23 @@ function Content() {
         <button
           id="next-btn"
           onClick={() => {
-            let satisfied;
+            let satisfied = true;
             // check if the flow is in the first 2 steps
-            if (step === 0 || step === 1) {
-              satisfied = false;
-            } else {
-              satisfied = true;
-            }
-            const forms = document.getElementsByClassName("required");
-            for (let form of forms) {
-              // set satisfied to true for every filled required field
-              if (form.value) {
-                satisfied = true;
-              } else {
-                satisfied = false;
-                form.style.border = "1px solid red";
-              }
-            }
+            // if (step === 0 || step === 1) {
+            //   satisfied = false;
+            // } else {
+            //   satisfied = true;
+            // }
+            // const forms = document.getElementsByClassName("required");
+            // for (let form of forms) {
+            //   // set satisfied to true for every filled required field
+            //   if (form.value) {
+            //     satisfied = true;
+            //   } else {
+            //     satisfied = false;
+            //     form.style.border = "1px solid red";
+            //   }
+            // }
             if (satisfied) {
               setStep(step + 1);
             } else {
